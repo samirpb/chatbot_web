@@ -1,0 +1,28 @@
+Cliente: 750000
+Bot: Prueba con 'precio', 'agendar' o 'horario'
+Cliente: agendar
+Bot: ¿Qué día quieres agendar?
+Cliente: la hora
+Bot: Prueba con 'precio', 'agendar' o 'horario'
+Cliente: precio
+Bot: El precio es $750.000
+Cliente: precio
+Bot: El precio es $750.000
+Cliente: horario
+Bot: Atendemos de Lunes a Viernes de 8am a 6pm, mi amor.
+Cliente: chao
+Bot: ¡Chao! Que tengas buen día, mi vida.
+Cliente: precio
+Bot: El precio es $750.000
+Cliente: horario
+Bot: Atendemos de Lunes a Viernes de 8am a 6pm, mi amor.
+Cliente: gracias
+Bot: Prueba con 'precio', 'agendar' o 'horario'
+Cliente: chao
+Bot: ¡Chao! Que tengas buen día, mi vida.
+Cliente: Precio
+Bot: El precio es $750.000
+Cliente: Horario
+Bot: Atendemos de Lunes a Viernes de 8am a 6pm, mi amor.
+Cliente: Chao
+Bot: ¡Chao! Que tengas buen día, mi vida.

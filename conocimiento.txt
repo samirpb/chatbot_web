@@ -1,0 +1,5 @@
+documento txt 
+Cliente: precio
+Bot: El precio es $750.000
+Cliente: chao
+Bot: ¡Chao! Que tengas buen día
