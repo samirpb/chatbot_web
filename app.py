@@ -8,11 +8,13 @@ def obtener_respuesta(mensaje):
     if "precio" in mensaje or "750" in mensaje or "costo" in mensaje or "cuanto vale" in mensaje:
         return "Bot: El precio es $750.000"
     elif "horario" in mensaje or "hora" in mensaje or "atienden" in mensaje or "abren" in mensaje:
-        return "Bot: Atendemos de Lunes a Viernes de 8am a 6pm, mi amor."
+        return "Bot: Atendemos de Lunes a Viernes de 8am a 6pm."
     elif "agendar" in mensaje or "cita" in mensaje or "agendarme" in mensaje or "dia" in mensaje:
         return "Bot: ¿Qué día quieres agendar? Escribeme el día."
+    elif "medio de pago" in mensaje or "aceptan tarjeta" in mensaje or "nequi" in mensaje or "daviplata" in mensaje:
+            return "Bot: ¿Qué día quieres agendar? Escribeme el día."
     elif "chao" in mensaje or "adios" in mensaje:
-        return "Bot: ¡Chao! Que tengas buen día, mi vida."
+        return "Bot: ¡Chao! Que tengas buen día."
     else:
         return "Bot: Prueba con 'precio', 'agendar' o 'horario'"
 
