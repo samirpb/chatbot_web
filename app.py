@@ -41,8 +41,18 @@ button { background: #25D366; color: white; padding: 8px 15px; border: none; bor
 <input id="msg" placeholder="Escribe precio, horario...">
 <button onclick="enviar()">Enviar</button>
 </div>
+<input id="msg" placeholder="Escribe precio, horario...">
+<button onclick="enviar()">Enviar</button>
+</div>
+<div style="margin-top:10px; display:flex; gap:8px; justify-content:center;">
+  <button onclick="enviarRapido('precio')" style="padding:6px 12px; border-radius:15px; border:1px solid #25D366; background:white; cursor:pointer;">💰 Precio</button>
+  <button onclick="enviarRapido('medio de pago')" style="padding:6px 12px; border-radius:15px; border:1px solid #25D366; background:white; cursor:pointer;">💳 Pago</button>
+  <button onclick="enviarRapido('horario')" style="padding:6px 12px; border-radius:15px; border:1px solid #25D366; background:white; cursor:pointer;">⏰ Horario</button>
+</div>
 <script>
-function enviar(){
+function enviar(){enviarRapido(texto) {
+  document.getElementById('msg').value = texto;
+  enviar(); // llama directo a tu función que ya tienes
   let m = document.getElementById('msg').value;
   if(!m) return;
   let chat = document.getElementById('chat');
