@@ -6,7 +6,7 @@ def obtener_respuesta(mensaje):
     if "precio" in mensaje or "costo" in mensaje or "cuanto" in mensaje:
         return "Bot: El precio es $750.000"
     
-    elif "medio de pago" in mensaje or "medios de pagos" in mensaje or "como pago" in mensaje or "formas de pago" in mensaje :
+    elif "pago" in mensaje or "pagos" in mensaje or "medio de pago" in mensaje or "medios de pago" in mensaje or "como pago" in mensaje :
         return " Bot: Aceptamos Nequi, Bancolombia y efectivo. Nequi: 3204523564. Bancolombia: Ahorros 123-456-789. ¿Con cuál te queda fácil?"
     
     elif "horario" in mensaje or "hora" in mensaje:
@@ -14,7 +14,7 @@ def obtener_respuesta(mensaje):
     
     elif "agendar" in mensaje or "cita" in mensaje:
         return "Bot: ¿Qué día quieres agendar?"
-    else:
+    else
         return "Bot: Prueba con 'precio', 'horario' o 'agendar'"
 
 HTML = """
