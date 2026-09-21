@@ -3,10 +3,15 @@ app = Flask(__name__)
 
 def obtener_respuesta(mensaje):
     mensaje = mensaje.lower().strip()
-    if "preci" in mensaje or "costo" in mensaje or "cuanto" in mensaje:
+    if "precio" in mensaje or "costo" in mensaje or "cuanto" in mensaje:
         return "Bot: El precio es $750.000"
+    
+    elif "medio de pago" in mensaje or "medios de pagos" in mensaje or "como pago" in mensaje or "formas de pago" in mensaje :
+        return " Bot: Aceptamos Nequi, Bancolombia y efectivo. Nequi: 3204523564. Bancolombia: Ahorros 123-456-789. ¿Con cuál te queda fácil?"
+    
     elif "horario" in mensaje or "hora" in mensaje:
         return "Bot: Atendemos de Lunes a Viernes de 8am a 6pm."
+    
     elif "agendar" in mensaje or "cita" in mensaje:
         return "Bot: ¿Qué día quieres agendar?"
     else:
