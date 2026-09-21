@@ -14,7 +14,7 @@ def obtener_respuesta(mensaje):
     
     elif "agendar" in mensaje or "cita" in mensaje:
         return "Bot: ¿Qué día quieres agendar?"
-    else
+    else:
         return "Bot: Prueba con 'precio', 'horario' o 'agendar'"
 
 HTML = """
