@@ -4,7 +4,10 @@ app = Flask(__name__)
 def obtener_respuesta(mensaje):
     mensaje = mensaje.lower().strip()
         
-    if "precio" in mensaje or "costo" in mensaje or "cuanto" in mensaje:
+    if any(palabra in mensaje.lower() for palabra in ["chao","adios", "hasta luego", "bye", "nos vemos"]):
+        return "Chao Fue un gusto ayudarte. Quedamos atentos por si necesitas algo mas. Que tengas un excelente día "
+    
+    elif "precio" in mensaje or "costo" in mensaje or "cuanto" in mensaje:
         return "Bot: El precio es $750.000"
     
     elif "pago" in mensaje or "pagos" in mensaje or "medio de pago" in mensaje or "medios de pago" in mensaje or "como pago" in mensaje :
