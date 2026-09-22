@@ -22,7 +22,7 @@ HTML = """
 <style>body{font-family:Arial;background:#f0eada;padding:20px}.caja{background:white;max-width:400px;margin:auto;padding:15px;border-radius:15px} .tu{background:#dcf8c6;text-align:right;padding:8px;border-radius:10px;margin:5px} .bot{background:#eee;padding:8px;border-radius:10px;margin:5px} input{width:70%;padding:10px;border-radius:10px;border:2px solid black} button{background:#25D366;color:white;padding:10px;border:none;border-radius:5px}</style>
 </head><body>
 <div class="caja"><h3>🤖 Bot - Asistente Virtual</h3><div id="chat"></div>
-<input id="msg" placeholder="Escribe precio, horario..."><button onclick="enviar()">Enviar</button>
+<input id="msg" placeholder="Escribe precio, medio de pago, horario..."><button onclick="enviar()">Enviar</button>
 <br><br>
 <button onclick="enviarTexto('precio')">💰 Precio</button>
 <button onclick="enviarTexto('pago')">💳 Medios de Pago</button>
