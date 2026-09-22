@@ -25,6 +25,11 @@ HTML = """
 <input id="msg" placeholder="Escribe precio, horario..."><button onclick="enviar()">Enviar</button>
 <br><br>
 <button onclick="enviarTexto('precio')">💰 Precio</button>
+<button onclick="enviarTexto('pago')" style="display:flex; align-items:center; gap:5px;">
+  <img src="nequi_transparent.png" style="width:20px; height:20px;">
+  <img src="bancolombia_transparent.png" style="width:20px; height:20px;">
+  <img src="efectivo_transparent.png" style="width:20px; height:20px;">
+  Medios de Pago</button>
 <button onclick="enviarTexto('horario')">🕒 Horario</button>
 <button onclick="enviarTexto('agendar')">📅 Agendar</button>
 </div>
