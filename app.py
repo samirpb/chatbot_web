@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 def obtener_respuesta(mensaje):
     mensaje = mensaje.lower().strip()
-    if any(p in texto for p in ['chao', 'adiós', 'adios', 'gracias', 'bye', 'hasta luego']):
-        return "¡Gracias por visitarnos! 😊 Quedamos atentos. ¡Que tengas buen día!"
+     if any(p in texto for p in ['chao', 'adios', 'gracias', 'bye', 'hasta luego']):
+        return "¡Gracias por visitarnos! Quedamos atentos. ¡Que tengas buen día!"
         
     if "precio" in mensaje or "costo" in mensaje or "cuanto" in mensaje:
         return "Bot: El precio es $750.000"
